@@ -1,0 +1,2 @@
+Sorry, I can't upload ffmpeg binary here due to Size limitation of Github.
+But you can find it from my release section: https://github.com/SamirJanaOfficial/HDR-DV-Hybrid/releases/tag/Binaries 
