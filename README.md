@@ -24,8 +24,12 @@ The below Mentioned Binaries are Required. Always try to use `Latest Version`.
 
 #### Mux using CLI
 
-1. mkvmerge -o "final_out.mkv" "output.hevc" "audio.mp4"
+1. `mkvmerge -o "final_out.mkv" "output.hevc" "audio.mp4"`
 
 
-🚫 Warning : Check FPS , Runtimes or any fixes needed or not in output hevc file. These commands wont sync BD and WEB-DL videos. So, do that on your way...
+#### 🚫 Warning : Check FPS , Runtimes or any fixes needed or not in output hevc file.
+
+### Reminder :
+These method wont help you to make hyrid of BluRay and WEB-DL videos...
+There is another method. I'll create that later.
 
