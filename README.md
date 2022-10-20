@@ -12,7 +12,7 @@ The below Mentioned Binaries are Required. Always try to use `Latest Version`.
 
 ### Put AllRequired Binary Files in same Folder or Add Path in Environment
 #### Now Executes the below Commands
-1. ffmpeg -i "dovi_file_name.mp4" -c:v copy -vbsf hevc_mp4toannexb -f hevc - | dovi_tool -m 3 extract-rpu - -o RPU.bin
+1. `ffmpeg -i "dovi_file_name.mp4" -c:v copy -vbsf hevc_mp4toannexb -f hevc - | dovi_tool -m 3 extract-rpu - -o RPU.bin`
 
 2. ffmpeg -i "hdr_file_name.mp4" -c:v copy -an -vbsf hevc_mp4toannexb -f hevc hdr.hevc
 
