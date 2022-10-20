@@ -1,11 +1,14 @@
-# HDR-DV-Hybrid
+# Create Hybrid HDR-DV Video
+A Simple Guide to create Dolby Vision Files with HDR Fallback:
 
-Needed Things :
-FFMPEG : Latest Version (Exe or Anything) - https://ffmpeg.org/ffmpeg.html
-MKVMERGE CLI : Latest Version (Exe or Anything) - https://mkvtoolnix.download/
-DOVI_TOOL : Latest Version (Exe or Anything) - https://github.com/quietvoid/dovi_tool/releases
-HDR File : Make Sure, the Name is same as in Command or You can change in Command or rename it.
-DoVi File : Make Sure, the Name is same as in Command or You can change in Command or rename it.
+### Things Needed :
+The below Mentioned Binaries are Required. Always try to use `Latest Version`.
+
+- `FFMPEG` - Latest Version(Exe or Anything). Get it from [https://ffmpeg.org/ffmpeg.html](https://ffmpeg.org/ffmpeg.html)
+- `MKVMERGE` - Latest Version mkvmerge cli (comes with mkvnixtool). Get it from [https://mkvtoolnix.download](https://mkvtoolnix.download)
+- `DOVI_TOOL` - Latest Version(Exe or Anything). Get it from [https://github.com/quietvoid/dovi_tool/releases](https://github.com/quietvoid/dovi_tool/releases)
+- `HDR File` - Make Sure, to rename it as in Command or You can change in Command.
+- `DOVi File` - Make Sure, to rename it as in Command or You can change in Command.
 
 Put all Needed Files in same Folder...
 Then Run these Commands.
