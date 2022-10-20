@@ -19,7 +19,8 @@ The below Mentioned Binaries are Required. Always try to use `Latest Version`.
 3. `dovi_tool inject-rpu -i "hdr.hevc" --rpu-in RPU.bin -o output.hevc`
 
 
-Next Command is used for Muxing Videos, Audios, Subtitles with Video. You can simply skip it (if you have allergy with command line) and Mux manually using mkvnixtool or tsmuxer.🤦‍♂️
+- Next Command is used for muxing output.hevc file (video file) with Audios & Subtitles.
+- You can simply skip it (if you have allergy with command line) and Mux manually using mkvnixtool or tsmuxer.🤦‍♂️
 
 Else, if you like command line or you need it, just mention needed files in the end of the command so that you can merge everything like boom.🧑‍🚀
 
