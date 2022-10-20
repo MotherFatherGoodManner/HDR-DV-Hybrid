@@ -14,9 +14,9 @@ The below Mentioned Binaries are Required. Always try to use `Latest Version`.
 #### Now Executes the below Commands
 1. `ffmpeg -i "dovi_file_name.mp4" -c:v copy -vbsf hevc_mp4toannexb -f hevc - | dovi_tool -m 3 extract-rpu - -o RPU.bin`
 
-2. ffmpeg -i "hdr_file_name.mp4" -c:v copy -an -vbsf hevc_mp4toannexb -f hevc hdr.hevc
+2. `ffmpeg -i "hdr_file_name.mp4" -c:v copy -an -vbsf hevc_mp4toannexb -f hevc hdr.hevc`
 
-3. dovi_tool inject-rpu -i "hdr.hevc" --rpu-in RPU.bin -o output.hevc
+3. `dovi_tool inject-rpu -i "hdr.hevc" --rpu-in RPU.bin -o output.hevc`
 
 
 Next Command is used for Muxing Videos, Audios, Subtitles with Video. You can simply skip it (if you have allergy with command line) and Mux manually using mkvnixtool or tsmuxer.🤦‍♂️
